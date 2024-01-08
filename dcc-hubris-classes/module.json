@@ -1,7 +1,7 @@
 {
   "title": "DCC Hubris Sheets",
   "description": "Hubris Sheets for Dungeon hubris Classics in FoundryVTT!",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "esmodules": [
     "module/dcc-hubris-classes.js",
     "helpers/config.mjs"
@@ -17,9 +17,9 @@
       "flags": {}
     }
   ],
-  "url": "https://github.com/algnc/dcc-hubris-classes",
-  "manifest": "https://raw.githubusercontent.com/algnc/dcc-hubris-classes/main/module.json",
-  "download": "https://github.com/algnc/dcc-hubris-classes/archive/refs/heads/main.zip",
+  "url": "https://github.com/Nezzeraj/dcc-hubris-class-sheets/",
+  "manifest": "https://github.com/Nezzeraj/dcc-hubris-class-sheets/",
+  "download": "https://github.com/Nezzeraj/dcc-hubris-class-sheets/main.zip",
   "license": "LICENSE.txt",
   "id": "dcc-hubris-classes",
   "authors": [
