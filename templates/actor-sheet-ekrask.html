@@ -1,0 +1,53 @@
+<form class="{{cssClass}}" autocomplete="off">
+ 
+  {{!-- Hidden inputs to reflect the sheet class and force standard crit range --}}
+  <input type="hidden" id="system.details.sheetClass" name="system.details.sheetClass" value="Ekrask" data-dtype="String"/>
+  <input type="hidden" id="system.details.critRange" name="system.details.critRange" value="20" data-dtype="Number"/>
+
+  {{!-- Sheet Header --}}
+  {{> systems/dcc/templates/actor-partial-pc-header.html }}
+
+  {{!-- Sheet Tab Navigation --}}
+  <nav class="sheet-tabs tabs" data-group="primary">
+    <a class="item" data-tab="character">{{localize "DCC.Character"}}</a>
+    <a class="item" data-tab="equipment">{{localize "DCC.Equipment"}}</a>
+    <a class="item" data-tab="class">{{localize "Ekrask.Ekrask"}}</a>
+    <a class="item" data-tab="notes">{{localize "DCC.Notes"}}</a>
+  </nav>
+
+  {{!-- Sheet Body --}}
+  <section class="sheet-body">
+
+  {{!-- Character Tab --}}
+    {{> systems/dcc/templates/actor-partial-pc-common.html }}
+
+  {{!-- Equipment Tab --}}
+    {{> systems/dcc/templates/actor-partial-pc-equipment.html }}
+
+  {{!-- Notes Tab --}}
+    {{> systems/dcc/templates/actor-partial-pc-notes.html }}
+
+  {{!-- Class Tab --}}
+    <div class="tab" data-group="primary" data-tab="class">
+      <h4 class="class-label">{{localize "Ekrask.EkraskAbilities"}}</h4>
+      <div class="class">
+		    <ul class="class-note flexcol">
+          <li>{{{localize "Ekrask.Infravision"}}}</li> 
+          <li>{{localize "Ekrask.AttackModifier"}}</li>      
+		      <li>{{localize "DCC.MightyDeedsOfArms"}}</li>
+          {{#dccPackExists "dcc-core-book.dcc-core-journals"}}
+            <ul>
+              <li>{{{dccLocalizeAndEnrich "DCC.MightyDeedsLink"}}}</li>
+            </ul>
+          {{/dccPackExists}}
+          <li>{{localize "Ekrask.NaturalWeapons"}}</li>
+          <li>{{localize "Ekrask.BloodSpout"}}</li>
+          <li>{{localize "Ekrask.Tracker"}}</li>
+          <li>{{localize "Ekrask.Rage"}}</li>
+          <li>{{localize "Ekrask.Languages"}}</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</form>
+
