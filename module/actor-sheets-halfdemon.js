@@ -20,7 +20,7 @@ class ActorSheetHalfDemon extends DCCActorSheet {
   /** @override */
   async getData(options) {
     const data = await super.getData(options)
-    this.options.template = 'modules/dcc-hubris-classes/templates/actor-sheet-halfdemon.html'
+    this.options.template = 'modules/dcc-hubris-class-sheets/templates/actor-sheet-halfdemon.html'
     if (data.system.details.sheetClass !== 'Half Demon') {
       this.actor.update({
         'data.system.class.className': game.i18n.localize('halfdemon.HalfDemon')
