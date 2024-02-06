@@ -17,9 +17,9 @@
       "flags": {}
     }
   ],
-  "url": "https://github.com/Nezzeraj/dcc-hubris-class-sheets",
-  "manifest": "https://github.com/Nezzeraj/dcc-hubris-class-sheets/blob/main/module.json",
-  "download": "https://github.com/Nezzeraj/dcc-hubris-class-sheets/blob/main/dcc-hubris-class-sheets-main.zip",
+  "url": "https://github.com/Nezzeraj/dcc-hubris-classes",
+  "manifest": "https://github.com/Nezzeraj/dcc-hubris-classes/blob/main/module.json",
+  "download": "https://github.com/Nezzeraj/dcc-hubris-classes/blob/main/dcc-hubris-classes-main.zip",
   "license": "LICENSE.txt",
   "id": "dcc-hubris-classes",
   "authors": [
