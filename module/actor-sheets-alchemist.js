@@ -22,7 +22,7 @@ class ActorSheetAlchemist extends DCCActorSheet {
     #const data = super.getData()*/
   async getData(options) {
     const data = await super.getData(options)
-    this.options.template = 'modules/dcc-hubris-classes/templates/actor-sheet-alchemist.html'
+    this.options.template = 'modules/dcc-hubris-class-sheets/templates/actor-sheet-alchemist.html'
     data.system.class.className = game.i18n.localize('Alchemist.Alchemist')
     if (data.system.details.sheetClass !== 'Alchemist') {
       this.actor.update({
