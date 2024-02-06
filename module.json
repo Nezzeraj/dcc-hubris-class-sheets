@@ -1,9 +1,9 @@
 {
   "title": "DCC Hubris Sheets",
   "description": "Hubris Sheets for Dungeon hubris Classics in FoundryVTT!",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "esmodules": [
-    "module/dcc-hubris-class-sheets.js",
+    "module/dcc-hubris-classes.js",
     "helpers/config.mjs"
   ],
   "styles": [
