@@ -19,14 +19,14 @@ Hooks.once('init', async function () {
 
 
   // Register sheet application classes
-  Actors.registerSheet('dcc-hubris-class-sheets-alchemist', AlchemistSheets.ActorSheetAlchemist, { types: ['Player'], label: 'alchemist.ActorSheetAlchemist' })
-  Actors.registerSheet('dcc-hubris-class-sheets-avarian', AvarianSheets.ActorSheetAvarian, { types: ['Player'], label: 'avarian.ActorSheetAvarian' })
-  Actors.registerSheet('dcc-hubris-class-sheets-bloodwitch', BloodWitchSheets.ActorSheetBloodWitch, { types: ['Player'], label: 'bloodwitch.ActorSheetBloodWitch' })
-  Actors.registerSheet('dcc-hubris-class-sheets-druid', DruidSheets.ActorSheetDruid, { types: ['Player'], label: 'druid.ActorSheetDruid' })
-  Actors.registerSheet('dcc-hubris-class-sheets-ekrask', EkraskSheets.ActorSheetEkrask, { types: ['Player'], label: 'ekrask.ActorSheetEkrask' })
-  Actors.registerSheet('dcc-hubris-class-sheets-halfdemon', HalfDemonSheets.ActorSheetHalfDemon, { types: ['Player'], label: 'halfdemon.ActorSheetHalfDemon' })
-  Actors.registerSheet('dcc-hubris-class-sheets-murdermachine', MurderMachineSheets.ActorSheetMurderMachine, { types: ['Player'], label: 'murdermachine.ActorSheetMurderMachine' })
-  Actors.registerSheet('dcc-hubris-class-sheets-mutant', MutantSheets.ActorSheetMutant, { types: ['Player'], label: 'mutant.ActorSheetMutant' })
-  Actors.registerSheet('dcc-hubris-class-sheets-shadowdancer', ShadowdancerSheets.ActorSheetShadowdancer, { types: ['Player'], label: 'shadowdancer.ActorSheetShadowdancer'})
+  Actors.registerSheet('dcc-hubris-classes-alchemist', AlchemistSheets.ActorSheetAlchemist, { types: ['Player'], label: 'alchemist.ActorSheetAlchemist' })
+  Actors.registerSheet('dcc-hubris-classes-avarian', AvarianSheets.ActorSheetAvarian, { types: ['Player'], label: 'avarian.ActorSheetAvarian' })
+  Actors.registerSheet('dcc-hubris-classes-bloodwitch', BloodWitchSheets.ActorSheetBloodWitch, { types: ['Player'], label: 'bloodwitch.ActorSheetBloodWitch' })
+  Actors.registerSheet('dcc-hubris-classes-druid', DruidSheets.ActorSheetDruid, { types: ['Player'], label: 'druid.ActorSheetDruid' })
+  Actors.registerSheet('dcc-hubris-classes-ekrask', EkraskSheets.ActorSheetEkrask, { types: ['Player'], label: 'ekrask.ActorSheetEkrask' })
+  Actors.registerSheet('dcc-hubris-classes-halfdemon', HalfDemonSheets.ActorSheetHalfDemon, { types: ['Player'], label: 'halfdemon.ActorSheetHalfDemon' })
+  Actors.registerSheet('dcc-hubris-classes-murdermachine', MurderMachineSheets.ActorSheetMurderMachine, { types: ['Player'], label: 'murdermachine.ActorSheetMurderMachine' })
+  Actors.registerSheet('dcc-hubris-classes-mutant', MutantSheets.ActorSheetMutant, { types: ['Player'], label: 'mutant.ActorSheetMutant' })
+  Actors.registerSheet('dcc-hubris-classes-shadowdancer', ShadowdancerSheets.ActorSheetShadowdancer, { types: ['Player'], label: 'shadowdancer.ActorSheetShadowdancer'})
 })
 
