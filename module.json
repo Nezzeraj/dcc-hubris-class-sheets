@@ -19,7 +19,7 @@
   ],
   "url": "https://github.com/Nezzeraj/dcc-hubris-classes",
   "manifest": "https://github.com/Nezzeraj/dcc-hubris-classes/blob/main/module.json",
-  "download": "https://github.com/Nezzeraj/dcc-hubris-classes/blob/main/dcc-hubris-classes.zip",
+  "download": "https://github.com/Nezzeraj/dcc-hubris-classes/raw/main/dcc-hubris-classes.zip",
   "license": "LICENSE.txt",
   "id": "dcc-hubris-classes",
   "authors": [
