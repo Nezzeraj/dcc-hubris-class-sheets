@@ -20,7 +20,7 @@ class ActorSheetDruid extends DCCActorSheet {
   /** @override */
   async getData(options) {
     const data = await super.getData(options)
-    this.options.template = 'modules/dcc-hubris-class-sheets/templates/actor-sheet-druid.html'
+    this.options.template = 'modules/dcc-hubris-classes/templates/actor-sheet-druid.html'
     if (data.system.details.sheetClass !== 'Druid') {
       this.actor.update({
         'data.class.className': game.i18n.localize('Druid.Druid')
