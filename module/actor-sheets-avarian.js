@@ -3,7 +3,7 @@
  */
 
 import DCCActorSheet from '/systems/dcc/module/actor-sheet.js'
-import { hubris } from '/modules/dcc-hubris-classes/helpers/config.mjs'
+import { hubris } from '/modules/dcc-hubris-class-sheets/helpers/config.mjs'
 
 Hooks.once('init', () => {
   CONFIG.hubris = hubris;
@@ -25,7 +25,7 @@ class ActorSheetAvarian extends DCCActorSheet {
   /** @override */
   async getData(options) {
     const data = await super.getData(options)
-    this.options.template = 'modules/dcc-hubris-classes/templates/actor-sheet-avarian.html'
+    this.options.template = 'modules/dcc-hubris-class-sheets/templates/actor-sheet-avarian.html'
     if (data.system.details.sheetClass !== 'Avarian') {
       this.actor.update({
         "data.class.className": game.i18n.localize('Avarian.Avarian')
