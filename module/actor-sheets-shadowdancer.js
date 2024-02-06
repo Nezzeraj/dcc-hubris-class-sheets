@@ -20,7 +20,7 @@ class ActorSheetShadowdancer extends DCCActorSheet {
   /** @override */
   async getData(options) {
     const data = await super.getData(options)
-    this.options.template = 'modules/dcc-hubris-classes/templates/actor-sheet-shadowdancer.html'
+    this.options.template = 'modules/dcc-hubris-class-sheets/templates/actor-sheet-shadowdancer.html'
     if (data.system.details.sheetClass !== 'Shadowdancer') {
       this.actor.update({
         'data.class.className': game.i18n.localize('shadowdancer.Shadowdancer')
