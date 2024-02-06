@@ -20,7 +20,7 @@ class ActorSheetBloodWitch extends DCCActorSheet {
   /** @override */
   async getData(options) {
     const data = await super.getData(options)
-    this.options.template = 'modules/dcc-hubris-classes/templates/actor-sheet-bloodwitch.html'
+    this.options.template = 'modules/dcc-hubris-class-sheets/templates/actor-sheet-bloodwitch.html'
     if (data.system.details.sheetClass !== 'BloodWitch') {
       this.actor.update({
         'data.system.class.className': game.i18n.localize('BloodWitch.BloodWitch')
