@@ -21,7 +21,7 @@
   "manifest": "https://github.com/Nezzeraj/dcc-hubris-class-sheets/blob/main/module.json",
   "download": "https://github.com/Nezzeraj/dcc-hubris-class-sheets/blob/main/dcc-hubris-class-sheets-main.zip",
   "license": "LICENSE.txt",
-  "id": "dcc-hubris-class-sheets",
+  "id": "dcc-hubris-classes",
   "authors": [
     {
       "name": "Christopher 'Nezzeraj' Rowe",
