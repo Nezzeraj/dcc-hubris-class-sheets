@@ -20,7 +20,7 @@ class ActorSheetEkrask extends DCCActorSheet {
   /** @override */
   async getData(options) {
     const data = await super.getData(options)
-    this.options.template = 'modules/dcc-hubris-classes/templates/actor-sheet-ekrask.html'
+    this.options.template = 'modules/dcc-hubris-class-sheets/templates/actor-sheet-ekrask.html'
     if (data.system.details.sheetClass !== 'Ekrask') {
       this.actor.update({
         'data.class.className': game.i18n.localize('Ekrask.Ekrask')
